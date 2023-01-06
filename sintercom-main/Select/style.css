@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('Assets/BG.png');
+  background-position: 100px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#city {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  left: 5%;
+}
+#legend{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #4E0965;
+}
+#dropdown {
+	cursor: pointer;
+  }
+  
+  .box {
+	display: hide;
+	flex-direction: column;
+  }
+  
+  #dropdown:hover + .box {
+	display: flex;
+  }
+
+ul li a {
+  width: 376px;
+  height: 50px;
+  background-color: #4E0965;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+  font-size: 28px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  transition: .2s;
+}
+
+ul li a:hover{
+  background-color: #350051;
+  transition: .2s;
+}
+
+.bg_items{
+  display: flex;
+  height: 100vh;
+}
+
+#logo img{
+  width: 250px;
+  top: 25px;
+  left: 5%;
+  position: fixed;
+}
+
+#go_sintercom #circle {
+  bottom: -300px;
+  left: -150px;
+  position: fixed;
+  z-index: -9;
+}
+#go_sintercom #go{
+  z-index: 100;
+  position: fixed;
+  bottom: 40px;
+  left: 30px;
+  width: 220px;
+}
+
+#bg_imgs #woman{
+  right: 40px;
+  position: fixed;
+  z-index: 1;
+  bottom: -30px;
+  height: 70%;
+}
+
+#bg_imgs #purple {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+}
